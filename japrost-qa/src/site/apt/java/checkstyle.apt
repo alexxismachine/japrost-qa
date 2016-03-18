@@ -1,0 +1,35 @@
+ -----
+ Java Checkstyle
+ -----
+ alexxismachine
+ -----
+
+Checkstyle
+
+* Profil {{{./checkstyle_easy-going.xml}'easy-going'}}
+  
+  Ein sehr einfaches Profil mit den Grundsäzten die für alles gelten sollen. 
+
+** Block Checks
+
+*** {{{http://checkstyle.sourceforge.net/config_blocks.html#EmptyBlock}EmptyBlock}}
+
+  Dieser Check ist einmal mit den Default-Werten konfiguriert (Blöcke benötigen ein Statement). 
+  Für die Tokens, die im Standard nicht beachtet werden gibt es eine weitere Konfiguration für die gilt, dass zumindest ein (hoffentlich erklärender) Text enthalten sein muss. 
+ 
+** Imports 
+ 
+*** {{{http://checkstyle.sourceforge.net/config_imports.html#AvoidStarImport}AvoidStarImport}}
+
+  Das Importieren von Klassen aus einem Paket verschleiert deren Herkunft (Wartbarkeit) 
+  und kann zu Namenskonflikten führen, wenn Bibliotheken sich ändern (Nachhaltigkeit).
+
+** Naming Conventions
+
+  Einheitliche Namesgebung vermeidet Überraschungen und verringert die Einarbeitungszeit (Wartbarkeit).
+
+*** {{{http://checkstyle.sourceforge.net/config_naming.html#ConstantName}ConstantName}}
+
+  Entspricht der von Sun empfohlenen Schreibweise.
+
+ 

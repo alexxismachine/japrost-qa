@@ -4,12 +4,12 @@
  alexxismachine
  -----
 
-Java
+QA
 
-* Statische Code Analyse
+* Java
 
-** Checkstyle
+** Statische Code Analyse
 
-*** Profil {{{./java/checkstyle_easy-going.xml}'easy-going'}}
-  
-  Ein sehr einfaches Profil um zu testen, ob Checksyle funktioniert. 
+*** Checkstyle
+
+  Die Profile sind unter {{{./java/checkstyle.html}Checkstyle}} beschrieben.

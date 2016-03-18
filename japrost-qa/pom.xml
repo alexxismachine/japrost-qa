@@ -13,11 +13,13 @@
   <artifactId>japrost-qa</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>JaProSt QA Resouces</name>
-  
+
   <properties>
     <japrost.site.locales>de</japrost.site.locales>
+    <version-maven-checkstyle-plugin>2.17</version-maven-checkstyle-plugin>
+
   </properties>
-  
+
   <build>
     <plugins>
       <!-- maven deploy plugin implicitly used -->
@@ -39,6 +41,37 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>${version-maven-checkstyle-plugin}</version>
+        <dependencies>
+          <dependency>
+            <groupId>com.puppycrawl.tools</groupId>
+            <artifactId>checkstyle</artifactId>
+            <version>6.16.1</version>
+          </dependency>
+          <dependency>
+            <groupId>de.japrost</groupId>
+            <artifactId>japrost-qa</artifactId>
+            <classifier>java-qa-resources</classifier>
+            <version>${project.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+
     </plugins>
   </build>
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>${version-maven-checkstyle-plugin}</version>
+        <configuration>
+          <configLocation>de/japrost/java/qa/checkstyle_easy-going.xml</configLocation>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 </project>

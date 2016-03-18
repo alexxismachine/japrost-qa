@@ -8,6 +8,9 @@
       description="move to own project"
       date="to be released">
       <action type="add">
+        Document and test configuration.
+      </action>
+      <action type="add">
         Have an own project for qa resources.
       </action>
     </release>
