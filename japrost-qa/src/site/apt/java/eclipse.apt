@@ -1,0 +1,19 @@
+ -----
+ Java Eclipse
+ -----
+ alexxismachine
+ -----
+
+Eclipse
+
+  Diese Seite beschreibt die Konfiguration von Eclipse um QA-Anforderungen schon früh deutlich zu machen.
+  
+* Preferences
+
+** Java - Code Style - Code Templates
+
+  Work in progress {{{./java-codestyle-codetemplates.xml}codetemplates.xml}}
+
+** Java - Compiler - Javadoc
+
+[./java-compiler-javadoc.png] Einstellung

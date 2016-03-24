@@ -21,7 +21,11 @@
       <item
         name="Checkstyle"
         href="java/checkstyle.html" />
+      <item
+        name="Eclipse"
+        href="java/eclipse.html" />
     </menu>
+    
     <menu
       ref="reports"
       inherit="bottom" />
