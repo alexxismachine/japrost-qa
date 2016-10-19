@@ -1,0 +1,19 @@
+ -----
+ Java Code Style
+ -----
+ alexxismachine
+ -----
+
+Code Style
+
+  Diese Seite beschreibt die Vorgaben für den Stil des Codes (Formatierungen etc.).
+  Wie diese unter Eclipse konfiguriert werden, ist unter {{{./eclipse.html}Eclipse}} dokumentiert.
+  
+* Formatting
+
+  * Die maximale Zeilenlänge beträgt 120 Zeichen. 
+    Dies gilt für Code und Dokumentation.
+    Mit dieser Einstellung lässt sich auf meinen Monitoren ein diff noch ausreichend darstellen, 
+    ohne dass bei längeren Variablennamen und einer leicht erhöhten Einrückung ein unnötiger Umbruch entsteht.
+    Die 120 Zeichen müssen natürlich nicht ausgenutzt werden.  
+

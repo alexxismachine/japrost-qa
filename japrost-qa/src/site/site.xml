@@ -24,6 +24,9 @@
       <item
         name="Eclipse"
         href="java/eclipse.html" />
+      <item
+        name="Code Style"
+        href="java/codestyle.html" />
     </menu>
     
     <menu

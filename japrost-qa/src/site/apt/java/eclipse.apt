@@ -14,6 +14,17 @@ Eclipse
 
   Work in progress {{{./java-codestyle-codetemplates.xml}codetemplates.xml}}
 
+** Java - Code Style - Formatter
+
+  Die Hintergründe zur Konfiguration sind unter {{{./codestyle.html}beschrieben}}.
+
+  Work in progress {{{./java-codestyle-formatter.xml}formatter.xml}}
+
+[./java-codestyle-formatter-comments.png] Formatter Einstellung Comments
+
+[./java-codestyle-formatter-linewrapping.png] Formatter Einstellung Line Wrapping
+
 ** Java - Compiler - Javadoc
 
 [./java-compiler-javadoc.png] Einstellung
+
