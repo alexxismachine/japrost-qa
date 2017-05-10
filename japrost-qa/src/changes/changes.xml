@@ -6,7 +6,13 @@
     <release
       version="1.0"
       description="move to own project"
-      date="to be released">
+      date="2017-05-10">
+      <action type="update">
+        Rework pom to use less maven properties
+      </action>
+      <action type="update">
+        Remove eclipse artifacts from scm 
+      </action>
       <action type="add">
         Document and test configuration.
       </action>

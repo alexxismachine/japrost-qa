@@ -7,19 +7,19 @@
   <parent>
     <groupId>de.japrost</groupId>
     <artifactId>japrost-parent</artifactId>
-    <version>5.2-SNAPSHOT</version>
+    <version>5.2</version>
   </parent>
 
   <artifactId>japrost-qa</artifactId>
   <version>1.0-SNAPSHOT</version>
-  
+  <packaging>pom</packaging>
+
   <name>JaProSt QA Resouces</name>
   <url>http://www.japrost.de/japrost-qa/</url>
 
   <properties>
     <japrost.site.locales>de</japrost.site.locales>
     <version-maven-checkstyle-plugin>2.17</version-maven-checkstyle-plugin>
-
   </properties>
 
   <build>
@@ -89,5 +89,9 @@
       <name>JaProSt-Site</name>
       <url>${japrost.distribution.site.url}/japrost-qa/</url>
     </site>
-  </distributionManagement>  
+  </distributionManagement>
+  <scm>
+    <developerConnection>scm:git:git://bitbucket.org/daprost/japrost-qa</developerConnection>
+    <url>https://bitbucket.org/daprost/japrost-qa</url>
+  </scm>
 </project>
