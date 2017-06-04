@@ -28,3 +28,6 @@ Eclipse
 
 [./java-compiler-javadoc.png] Einstellung
 
+** Java - Editor - Templates
+
+  Work in progress {{{./java-editor-templates.xml}java-templates.xml}}
