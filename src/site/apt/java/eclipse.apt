@@ -26,8 +26,54 @@ Eclipse
 
 ** Java - Compiler - Javadoc
 
+  \u2611 Process Javadoc comments 
+  
+  * Malformed Javadoc comments: <<<Warning>>>
+  
+    * Only consider: <<<Package>>>
+    
+    * \u2611 Validate tag arguments
+    
+    * Missing tag descriptions: <<<Validate all standard tags>>>
+    
+  * Missing Javadoc tags: <<<Warning>>>
+  
+    * Only consider: <<<Package>>>
+
+    * \u2611 Ignore in overriding and implementing methods
+    
+    * \u2611 Ignore method type parameters
+    
+  * Missing Javadoc comments: <<<Warning>>>
+  
+    * Only consider: <<<Package>>>
+
+    * \u2610 Ignore in overriding and implementing methods
+    
 [./java-compiler-javadoc.png] Einstellung
 
 ** Java - Editor - Templates
 
   Work in progress {{{./java-editor-templates.xml}java-templates.xml}}
+  
+** XML - XML Files - Editor
+
+ * Formatting
+ 
+   * Line width: 120 
+   
+   * \u2611 Split multiple ...
+   
+   * \u2610 Align final bracket ...
+   
+   * \u2611 Preserver whitespace ...
+   
+   * \u2610 Clear all blank lines
+   
+   * \u2610 Format comments
+   
+   * \u2611 Insert whitespace ...
+   
+   * \u2611 Indent using spaces
+   
+   * Indentation size: 2
