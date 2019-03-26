@@ -4,6 +4,14 @@
   xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
   <body>
     <release
+      version="1.1"
+      description="move to own project"
+      date="2019-03-26">
+      <action type="update">
+        Move java tests to java parent.
+      </action>
+    </release>
+    <release
       version="1.0"
       description="move to own project"
       date="2017-05-10">
@@ -11,7 +19,7 @@
         Rework pom to use less maven properties
       </action>
       <action type="update">
-        Remove eclipse artifacts from scm 
+        Remove eclipse artifacts from scm.
       </action>
       <action type="add">
         Document and test configuration.

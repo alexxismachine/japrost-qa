@@ -4,7 +4,7 @@
   <parent>
     <groupId>de.japrost</groupId>
     <artifactId>japrost-parent</artifactId>
-    <version>5.2</version>
+    <version>5.3</version>
   </parent>
 
   <artifactId>japrost-qa</artifactId>
@@ -16,7 +16,6 @@
 
   <properties>
     <japrost.site.locales>de</japrost.site.locales>
-    <version-maven-checkstyle-plugin>2.17</version-maven-checkstyle-plugin>
   </properties>
 
   <build>
@@ -40,46 +39,8 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>${version-maven-checkstyle-plugin}</version>
-        <dependencies>
-          <dependency>
-            <groupId>com.puppycrawl.tools</groupId>
-            <artifactId>checkstyle</artifactId>
-            <version>6.16.1</version>
-          </dependency>
-          <dependency>
-            <groupId>de.japrost</groupId>
-            <artifactId>japrost-qa</artifactId>
-            <classifier>java-qa-resources</classifier>
-            <version>${project.version}</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
-  <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>${version-maven-checkstyle-plugin}</version>
-        <configuration>
-          <configLocation>de/japrost/java/qa/checkstyle_easy-going.xml</configLocation>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
   <distributionManagement>
     <site>
       <id>japrostSiteId</id>
